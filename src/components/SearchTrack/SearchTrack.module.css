@@ -1,0 +1,23 @@
+
+.main {
+    padding-left: 2%;
+}
+
+.search {  
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+}
+
+.block {
+    display: inline;        
+}
+
+.main .item {
+    padding: 0.5%;   
+}
+
+.item p{
+    display: inline;
+    padding-left: 1%;
+    font-weight: bold;
+}
