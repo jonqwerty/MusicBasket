@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MusicBasket/static/css/main.6809d2ff.chunk.css",
-    "main.js": "/MusicBasket/static/js/main.35c12357.chunk.js",
-    "main.js.map": "/MusicBasket/static/js/main.35c12357.chunk.js.map",
+    "main.js": "/MusicBasket/static/js/main.c532f2b6.chunk.js",
+    "main.js.map": "/MusicBasket/static/js/main.c532f2b6.chunk.js.map",
     "runtime-main.js": "/MusicBasket/static/js/runtime-main.f463014d.js",
     "runtime-main.js.map": "/MusicBasket/static/js/runtime-main.f463014d.js.map",
     "static/js/2.af153adb.chunk.js": "/MusicBasket/static/js/2.af153adb.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.f463014d.js",
     "static/js/2.af153adb.chunk.js",
     "static/css/main.6809d2ff.chunk.css",
-    "static/js/main.35c12357.chunk.js"
+    "static/js/main.c532f2b6.chunk.js"
   ]
 }
