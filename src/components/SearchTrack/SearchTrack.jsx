@@ -9,7 +9,7 @@ const SearchTrack = (props) => {
     let search = () => {  
         let text = searchWord.current.value;
         
-            axios.get("http://ws.audioscrobbler.com/2.0/?method=track.search&track="+ text + "&api_key=c5eb1cf3c2b9631ee38538f50b5239dc&format=json").then(response => {
+            axios.get("https://ws.audioscrobbler.com/2.0/?method=track.search&track="+ text + "&api_key=c5eb1cf3c2b9631ee38538f50b5239dc&format=json").then(response => {
       
             props.setSTracks(response.data.results.trackmatches.track)
             });  

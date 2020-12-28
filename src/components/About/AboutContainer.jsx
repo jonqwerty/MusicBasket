@@ -18,7 +18,7 @@ class AboutContainer extends React.Component{
              artistName = 'Billie Eilish'
          }
         
-        axios.get("http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=" + artistName + "&api_key=c5eb1cf3c2b9631ee38538f50b5239dc&format=json").then(response => {
+        axios.get("https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=" + artistName + "&api_key=c5eb1cf3c2b9631ee38538f50b5239dc&format=json").then(response => {
 
            this.props.setArtistAC (response.data.artist)
         });

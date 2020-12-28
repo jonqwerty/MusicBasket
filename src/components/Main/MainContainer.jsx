@@ -10,7 +10,7 @@ class MainContainer extends React.Component{
         const ApiKey = 'c5eb1cf3c2b9631ee38538f50b5239dc'
 
         if (this.props.tracks.length === 0) {
-            axios.get("http://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key=" + ApiKey + "&format=json")
+            axios.get("https://ws.audioscrobbler.com/2.0/?method=chart.gettoptracks&api_key=" + ApiKey + "&format=json")
                 .then(response => {
                     this.props.setTracks(response.data.tracks.track)
             });
