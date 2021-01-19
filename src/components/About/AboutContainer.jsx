@@ -9,6 +9,8 @@ import { withRouter } from 'react-router-dom';
 
 class AboutContainer extends React.Component{
 
+    
+
     componentDidMount() {
         
         let artistName = this.props.match.params.artistName;

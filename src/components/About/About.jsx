@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import s from './About.module.css'
 import * as axios from 'axios';
 
@@ -7,7 +7,7 @@ import * as axios from 'axios';
 const About = (props) => {
     // const ApiKey = 'c55183869beed8ea48ed909510912e83'
    
-
+    
     return (
         <div>
             <div className = {s.about} >About artist</div>

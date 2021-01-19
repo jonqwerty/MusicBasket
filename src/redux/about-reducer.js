@@ -2,8 +2,27 @@
 const SET_ARTIST = 'SET_ARTIST';
 
 const initialState = {
-    artist: [       
-    ]
+    artist: {
+        "name": "BillieEilish",
+        "image":[
+            {
+                "#text": "",
+                "size": "small"
+                },
+            {
+                "#text": "",
+                "size": "medium"
+                }
+        ],
+        "bio":{
+            "content": ""
+        },
+        "tags":{
+            "tag": []
+        }
+    } 
+            
+    
 };
 
 export const aboutReducer = (state = initialState, action) => {
